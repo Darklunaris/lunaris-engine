@@ -1,0 +1,42 @@
+name: lunaris_engine
+description: "A fast, extensible Dart library providing efficient algorithms and data structures, including search, sort, graph, string, set, map utilities, and AI helpers."# algorithm,# data structures
+version: 0.1.6
+repository: https://github.com/POFKLabs/lunaris_engine
+homepage: https://pofk.vercel.app/
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  benchmark_harness: ^2.3.1
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
+
+license: MIT
+
+# algorithm
+# algorithms
+# lunaris_engine
+# data structures
+# linked lists
+# trees
+# graphs
+# search
+# sort
+# string
+# set
+# map
+# AI
+# helpers
+# utilities
+# common
+# flutter
+# web
+# mobile
+# desktop
+# server
+# cloud
+# microservices
+# APIs
+# integration

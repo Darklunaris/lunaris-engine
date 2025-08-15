@@ -1,0 +1,15 @@
+import 'package:test/test.dart';
+import 'package:lunaris_engine/MachineLearning/dbscan.dart';
+
+void main() {
+  test('dbscan basic', () {
+    final X = [
+      [1.0, 2.0],
+      [1.1, 2.1],
+      [8.0, 8.0],
+    ];
+    final model = DBSCAN(eps: 0.5, minPts: 1);
+    final labels = model.fit(X);
+    expect(labels.length, equals(3));
+  });
+}
