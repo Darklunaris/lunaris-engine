@@ -4,7 +4,7 @@ Each result is average time per operation (us/op) and memory usage (KB)
 Dart version: 3.8.1 (stable) (Wed May 28 00:47:25 2025 -0700) on "windows_x64"
 Platform: windows "Windows 11 Pro" 10.0 (Build 26100)
 ---
-
+```
 MaxSumSubarrayIntBenchmark     | maxSumSubarrayOfSizeK<int>     |      25.08 us/op |   256.00 KB
 MaxSumSubarrayDoubleBenchmark  | maxSumSubarrayOfSizeK<double>  |     177.62 us/op |  2532.00 KB
 BubbleSortBenchmark            | bubbleSort                     |   19239.44 us/op |    64.00 KB
@@ -20,7 +20,7 @@ EdmondsKarpBenchmark           | edmondsKarp                    |     111.50 us/
 DinicsAlgorithmBenchmark       | dinicsAlgorithm                |     124.49 us/op |   684.00 KB
 JohnsonsAlgorithmBenchmark     | johnsonsAlgorithm              |     189.39 us/op |  2428.00 KB
 StoerWagnerMinCutBenchmark     | stoerWagnerMinCut              |      45.07 us/op |  1064.00 KB
-
+```
 
 
 
@@ -30,7 +30,7 @@ Each result is average time per operation (us/op) and memory usage (KB)
 Dart version: 3.8.1 (stable) (Wed May 28 00:47:25 2025 -0700) on "linux_x64"
 Platform: linux Linux 6.14.0-27-generic #27~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Jul 22 17:38:49 UTC 2
 ---
-
+```
 MaxSumSubarrayIntBenchmark     | maxSumSubarrayOfSizeK<int>     |      24.82 us/op |     0.00 KB
 MaxSumSubarrayDoubleBenchmark  | maxSumSubarrayOfSizeK<double>  |     129.91 us/op |     0.00 KB
 BubbleSortBenchmark            | bubbleSort                     |   14910.76 us/op |     0.00 KB
@@ -59,3 +59,4 @@ AodvSendBenchmark              | aodv_send                      |      59.01 us/
 MlMatrixMulBenchmark           | ml_matrix_mul                  |   13611.06 us/op |   584.00 KB
 RoutingDistanceVectorBenchmark | routing_distance_vector        |     305.74 us/op |   168.00 KB
 ConsensusProofOfWorkBenchmark  | consensus_pow                  |       0.11 us/op |     0.00 KB
+```
