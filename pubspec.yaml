@@ -1,6 +1,6 @@
 name: lunaris_engine
 description: "The largest library of algorithms in the Dart language, and soon globally, includes an arsenal of 300 algorithms, including machine learning, networks, encryption algorithms, blockchain, and much more."# algorithm,# data structures
-version: 0.1.6
+version: 0.1.0
 repository: https://github.com/Darklunaris/lunaris_engine
 homepage: https://Darklunaris.vercel.app/
 environment:

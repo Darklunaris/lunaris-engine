@@ -1,4 +1,4 @@
-
+## [0.1.0] - 2025-08-16
 # 📝 CHANGELOG — lunaris_engine
 
 > A comprehensive, production-grade algorithms library for Dart. This changelog lists all major modules and algorithms, grouped for clarity and discoverability.
