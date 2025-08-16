@@ -13,6 +13,37 @@
 Environment: Dart SDK ≥ 3.7.2 (see `pubspec.yaml`).
 
 ---
+## 🤖 Machine Learning & AI
+**Supervised, unsupervised, and deep learning models:**
+- linear_regression, logistic_regression, decision_tree, random_forest, svm, knn, naive_bayes, gradient_boosting, xgboost_like, gradient_boosting_classifier, lightgbm_like, catboost_like
+- ann, cnn, rnn, lstm, gru, transformer, gan
+- simulated_annealing, genetic_algorithm, particle_swarm, bayesian_optimization, mdp
+
+## 🕸️ Graph Algorithms
+**Classic and advanced graph/network algorithms:**
+- johnsons_algorithm, dinics_algorithm, stoer_wagner_min_cut, yens_algorithm, hierholzer, tarjans_scc
+- weighted_edge, bfs, dfs, topological_sort, connected_components, cycle_detection, bipartite_graph, shortest_path, dijkstra, bellman_ford, floyd_warshall, mst_kruskal, mst_prim, kosaraju_scc, articulation_points, eulerian_path, hamiltonian_path, chinese_postman, transitive_closure, graph_coloring, spfa, bridge_finding, tree_diameter, union_find
+
+## 📦 Dynamic Programming & Combinatorics
+**DP, memoization, and combinatorial algorithms:**
+- fibonacci_memoization, knapsack_01, longest_increasing_subsequence, longest_common_subsequence, edit_distance, matrix_path_sum, coin_change, subset_sum, partition_equal_subset_sum, house_robber, jump_game, alternating_subsequences, rod_cutting, minimum_path_sum, unique_paths_with_obstacles, decode_ways, interleaving_string, coin_change_bottom_up, paint_house, burst_balloons, longest_bitonic_subsequence, matrix_chain_multiplication, count_palindromic_subsequences, min_cuts_palindrome_partitioning, max_sum_increasing_subsequence, cherry_pickup, wildcard_matching, regex_matching
+
+## 🗜️ Compression
+**Classic and modern compression algorithms:**
+- huffman, lzw, rle, arithmetic, bwt
+
+## 🔐 Cryptography
+**Cryptographic primitives and mining:**
+- sha256, ripemd160, keccak256, scrypt, argon2, ecdsa, eddsa, bls_signatures, scrypt_mining
+
+## ⛓️ Consensus & Blockchain
+**Distributed consensus and blockchain protocols:**
+- proof_of_work, proof_of_stake, delegated_proof_of_stake, proof_of_authority, proof_of_burn, proof_of_capacity, proof_of_elapsed_time, bft, pbft, fba
+
+## 🌐 Routing & Wireless
+**Network routing and wireless/P2P protocols:**
+- bgp_algorithm, ospf_algorithm, rip_algorithm, link_state_routing, distance_vector_routing
+- aodv, dsr, chord, kademlia
 
 ## 📦 Install  lunaris engine
 
