@@ -322,3 +322,14 @@ export 'numerical/integration.dart';
 export 'numerical/differentiation.dart';
 export 'numerical/lu_decomposition.dart';
 export 'numerical/qr_decomposition.dart';
+//networkAdv
+export 'networkAdv/banner.dart';
+export 'networkAdv/cidr.dart';
+export 'networkAdv/http_probe.dart';
+export 'networkAdv/ip_utils.dart';
+export 'networkAdv/network_helpers.dart';
+export 'networkAdv/prioritize.dart';
+export 'networkAdv/reporting.dart';
+export 'networkAdv/socket_probe.dart';
+export 'networkAdv/timeout.dart';
+export 'networkAdv/tls.dart';
