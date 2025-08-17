@@ -36,7 +36,7 @@ class Scrypt {
   ///
   /// [password] - The password to derive the key from
   /// [salt] - The salt to use for key derivation
-  /// Returns a Future<String> containing the hexadecimal string representation of the derived key
+  /// Returns a Future String containing the hexadecimal string representation of the derived key
   static Future<String> deriveKey(String password, String salt) {
     return deriveKeyBytes(password, salt).then((bytes) => _bytesToHex(bytes));
   }
@@ -49,7 +49,7 @@ class Scrypt {
   /// [r] - Block size parameter (typically 8)
   /// [p] - Parallelization parameter (typically 1)
   /// [dkLen] - Length of derived key in bytes
-  /// Returns a Future<Uint8List> containing the derived key
+  /// Returns a Future Uint8List containing the derived key
   static Future<Uint8List> deriveKeyBytes(
     String password,
     String salt, {

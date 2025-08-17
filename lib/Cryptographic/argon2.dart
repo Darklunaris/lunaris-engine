@@ -44,7 +44,7 @@ class Argon2 {
   /// [password] - The password to derive the key from
   /// [salt] - The salt to use for key derivation
   /// [variant] - The Argon2 variant to use (default: Argon2id)
-  /// Returns a Future<String> containing the hexadecimal string representation of the derived key
+  /// Returns a Future String containing the hexadecimal string representation of the derived key
   static Future<String> deriveKey(
     String password,
     String salt, {
@@ -66,7 +66,7 @@ class Argon2 {
   /// [p] - Parallelism, must be >= 1
   /// [dkLen] - Length of derived key in bytes
   /// [variant] - The Argon2 variant to use
-  /// Returns a Future<Uint8List> containing the derived key
+  /// Returns a Future Uint8List containing the derived key
   static Future<Uint8List> deriveKeyBytes(
     String password,
     String salt, {
